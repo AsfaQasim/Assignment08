@@ -29,8 +29,8 @@ const Footer = () => {
               © 2024 Mastering Flowers Blog. All rights reserved.
             </p>
             <p className="text-sm text-[#D89F55]  mt-2">
-              "Celebrating the beauty and symbolism of flowers, inspiring nature
-              lovers and gardeners alike."
+              &apos;Celebrating the beauty and symbolism of flowers, inspiring nature
+              lovers and gardeners alike.&apos;
             </p>
           </div>
 

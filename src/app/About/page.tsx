@@ -34,7 +34,7 @@ const About = () => {
         <h1 className="text-4xl font-bold text-[#D89F55] mb-8">Our Vision</h1>
         <p className="text-lg leading-relaxed">
           Our vision is to create a world where flowers are an integral part of
-          every person's life, offering not just beauty but also peace and
+          every person&apos;s life, offering not just beauty but also peace and
           connection to nature. We aim to inspire people to appreciate the
           delicate and powerful role flowers play in the world, fostering a
           greater sense of mindfulness and environmental consciousness.

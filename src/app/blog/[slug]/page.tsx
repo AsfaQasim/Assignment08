@@ -34,7 +34,7 @@ const BlogPost = async (params: Params) => {
             {data.title}
           </h1>
           <p className="text-lg text-gray-400">
-            "Delve into the details of this amazing blog post."
+            &apos;Delve into the details of this amazing blog post.&apos;
           </p>
         </div>
         <div className="flex flex-col items-center mb-5">
@@ -51,7 +51,7 @@ const BlogPost = async (params: Params) => {
 
           {/* Description Text */}
           <p className="text-center text-lg text-[#D89F55] font-semibold">
-            "Red roses symbolize love, passion, and beauty." 🌹
+            &apos;Red roses symbolize love, passion, and beauty.&apos;🌹
           </p>
         </div>
 

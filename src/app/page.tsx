@@ -19,7 +19,7 @@ export default async function Page() {
 }`;
 
   const blogData = await client.fetch(query);
-  const slug = blogData[0].slug;
+  const slug = blogData[0]?.slug;
   console.log(slug);
 
   return (
@@ -28,8 +28,8 @@ export default async function Page() {
         <div className="container px-5 py-24 mx-auto">
           <div className="flex flex-wrap -m-4">
             {/* First Card */}
-            {blogData.map((item: Post) => (
-              <div className="p-4 md:w-1/3">
+            {blogData.map((item: Post, index: number) => (
+              <div className="p-4 md:w-1/3" key={item.slug || index}>
                 <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
                   <Image
                     className="lg:h-48 md:h-36 w-full object-cover object-center"
